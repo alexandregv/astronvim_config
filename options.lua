@@ -3,6 +3,7 @@ return {
   opt = {
     -- set to true or false etc.
     relativenumber = true, -- sets vim.opt.relativenumber
+    clipboard = "unnamed", -- Do not copy what gets deleted. Use `"+y` to copy to system clipboard
     number = true, -- sets vim.opt.number
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
